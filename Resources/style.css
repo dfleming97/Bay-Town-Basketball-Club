@@ -1,0 +1,142 @@
+/* unviersal rules */
+
+* {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+    margin: auto;
+    text-align: left;
+}
+
+
+
+/* navigation */
+
+.navbar {
+    background-color: rgb(192, 192, 192);
+    padding: 1.75rem;
+    text-align: left;
+}
+
+a {
+    font-size: 1.15rem;
+    padding: 1.2rem;
+    margin-left: 1rem;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    background-color: rgb(192, 192, 192);
+    color: #e43d3d;
+    
+}
+
+/* main */
+
+header {
+    padding-top: 10rem;
+    padding-bottom: 16.25rem;
+}
+
+header h1 {
+    background-color: rgb(192, 192, 192);
+    padding: 1.75rem;
+    font-size: 2.5rem;
+    color: #808000;
+    text-align: center
+}
+
+main {
+    line-height: 2;
+    margin: 0 2.5rem;
+    padding-bottom: 1.85rem;
+   
+}
+
+ main h2 {
+    color: #f08080;
+    font-size: 1.85rem;
+}
+
+main img {
+    
+    width: 30%;
+    height: 25rem;
+    flex-shrink: 2;
+}
+
+p {
+    padding-bottom: 2rem;
+}
+
+/* joey class */
+
+.joey {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: rgb(192, 192, 192);
+    
+}
+
+.joey h1 {
+    text-align: center;
+    padding-bottom: 1.15rem;
+    background-color: rgb(192, 192, 192);
+    font-size: 2rem;
+}
+
+.joey img {
+    width: 35%;
+    height: 30%;
+    display: flex;
+    flex: 0 2 20em;
+}
+
+/* hoop section */
+
+.hoop {
+    margin: auto;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hoop h2 {
+    text-align: center;
+    font-size: 1.85rem;
+}
+
+.hoop img {
+    width: 40%;
+    height: 25em;
+    
+    flex-shrink: 2;
+}
+
+/* footer */
+
+.footbar {
+    background-color: rgb(192, 192, 192);
+    padding: 1.75rem;
+    text-align: left;
+}
+
+/* tablet rules */
+
+@media only screen and (max-width: 1024px) and (min-width: 460px) {
+    main , .hoop {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    main img {
+        width: 100%;
+        display: inline;
+    }
+
+    .hoop img {
+        width: 100%;
+        display: inline;
+    }
+
+}
